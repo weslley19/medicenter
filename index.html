@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, user-scalable=0">
+			<link rel="stylesheet" href="assets/css/estilo.css">
+			<title>MediCenter</title>
+			<script type="text/javascript">
+				window.onload = function(){
+					document.querySelector(".menuMobile").addEventListener("click", function(){
+						if(document.querySelector(".menu nav ul").style.display == 'flex'){
+							document.querySelector(".menu nav ul").style.display = 'none';
+						} else{
+							document.querySelector(".menu nav ul").style.display ='flex';
+						}
+					});
+				};
+			</script>
+		</head>
+		<body>
+			<header> <!--semântico -->
+				<div class="container">
+					<div class="logo">
+						<a href=""><img src="assets/imagens/logo.png"></a>
+					</div>
+					<div class="menu">
+						<nav>
+							<div class="menuMobile">
+								<div class="mm_line"></div>
+								<div class="mm_line"></div>
+								<div class="mm_line"></div>
+							</div>
+							<ul>
+								<li class="active"><a href="">HOME</a></li>
+								<li><a href="">HOME</a></li>
+								<li><a href="">HOME</a></li>
+								<li><a href="">HOME</a></li>
+								<li><a href="">HOME</a></li>
+								<li><a href="">HOME</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</header>
+			<section id="banner">
+				<div class="container column">
+					<div class="banner_headline">
+						<h1>Top notch experience</h1>
+						<h2>Mediacenter is responsive template perfect for all screen size.</h2>
+					</div>
+					<div class="banner_options">
+						<div class="banner1">
+							<div class="banner_title">Emergency Case</div>
+							<div class="banner_descricao">Algum texto qualquer neste lugar</div>
+							<a href="">Read more</a>
+						</div>
+						<div class="banner2">
+							<div class="banner_title">Doctors Timetable</div>
+							<div class="banner_descricao">Algum texto qualquer neste lugar</div>
+							<a href="">Read more</a>
+						</div>
+						<div class="banner3">
+							<div class="banner_title">Opening Hours</div>
+							<div class="banner_dias1">
+								Monday - Sunday
+							</div>
+							<div class="banner_dias2">
+								Satuday
+							</div>
+							<div class="banner_dias3">
+								Sunday
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!--outra sessão do site -->
+			<section id="geral">
+				<div class="container">
+					<section><!--pode varias section dentro uma da outra-->
+						<div class="widget">
+							<div class="widget_title">
+								<div class="widget_title_text">Latest News</div>
+								<div class="widget_title_bar"></div>
+							</div>
+						</div>
+						<div class="widget_body flex">  <!--o flex foi adicinado para colocar uma noticia ao lado da outra -->
+							<article>
+								<a href="">
+									<div class="news_data">
+										<div class="news_posted_at">12 DEC 12</div>
+										<div class="news_comments">2</div>
+									</div>
+									<div class="news_thumbnail">
+										<img src="assets/imagens/crianca-medico.jpg">
+									</div>
+									<div class="news_title">
+										O título da matéria vai fica aqui neste local
+									</div>
+									<div class="news_resume">
+										O textos da matéria vai ficar neste local, coloque o que quiser aqui.
+										Não tenha pena de linhas. Isso aqui é um texto só de exemplo para
+										não ficar em branco..<br>
+										O textos da matéria vai ficar neste local, coloque o que quiser aqui.
+										Não tenha pena de linhas. Isso aqui é um texto só de exemplo para
+										não ficar em branco..
+									</div>
+								</a>
+							</article>
+							<article>
+								<a href="">
+									<div class="news_data">
+										<div class="news_posted_at">12 DEC 12</div>
+										<div class="news_comments">2</div>
+									</div>
+									<div class="news_thumbnail">
+										<img src="assets/imagens/crianca-medico.jpg">
+									</div>
+									<div class="news_title">
+										O título da matéria vai fica aqui neste local
+									</div>
+									<div class="news_resume">
+										O textos da matéria vai ficar neste local, coloque o que quiser aqui.
+										Não tenha pena de linhas. Isso aqui é um texto só de exemplo para
+										não ficar em branco..<br>
+										O textos da matéria vai ficar neste local, coloque o que quiser aqui.
+										Não tenha pena de linhas. Isso aqui é um texto só de exemplo para
+										não ficar em branco..
+									</div>
+								</a>
+							</article>
+							<article>
+								<a href="">
+									<div class="news_data">
+										<div class="news_posted_at">12 DEC 12</div>
+										<div class="news_comments">2</div>
+									</div>
+									<div class="news_thumbnail">
+										<img src="assets/imagens/crianca-medico.jpg">
+									</div>
+									<div class="news_title">
+										O título da matéria vai fica aqui neste local
+									</div>
+									<div class="news_resume">
+										O textos da matéria vai ficar neste local, coloque o que quiser aqui.
+										Não tenha pena de linhas. Isso aqui é um texto só de exemplo para
+										não ficar em branco..<br>
+										O textos da matéria vai ficar neste local, coloque o que quiser aqui.
+										Não tenha pena de linhas. Isso aqui é um texto só de exemplo para
+										não ficar em branco..
+									</div>
+								</a>
+							</article>
+							<article>
+								<a href="">
+									<div class="news_data">
+										<div class="news_posted_at">12 DEC 12</div>
+										<div class="news_comments">2</div>
+									</div>
+									<div class="news_thumbnail">
+										<img src="assets/imagens/crianca-medico.jpg">
+									</div>
+									<div class="news_title">
+										O título da matéria vai fica aqui neste local
+									</div>
+									<div class="news_resume">
+										O textos da matéria vai ficar neste local, coloque o que quiser aqui.
+										Não tenha pena de linhas. Isso aqui é um texto só de exemplo para
+										não ficar em branco..<br>
+										O textos da matéria vai ficar neste local, coloque o que quiser aqui.
+										Não tenha pena de linhas. Isso aqui é um texto só de exemplo para
+										não ficar em branco..
+									</div>
+								</a>
+							</article>
+						</div>
+					</section>
+					<aside>
+						<div class="widget">
+							<div class="widget_title">
+								<div class="widget_title_text">Departaments</div>
+								<div class="widget_title_bar"></div>
+								<div class="quadrados">
+									<div></div>
+									<div></div>
+									<div></div>
+									<div></div>
+									<div></div>
+									<div></div>
+								</div>
+							</div>
+						</div>
+						<div class="widget_body"></div>
+						<div class="widget">
+							<div class="widget_title">
+								<div class="widget_title_text">Make an Appoitment</div>
+								<div class="widget_title_bar"></div>
+							</div>
+						</div>
+						<div class="widget_body"></div>
+					</aside>
+				</div>
+			</section>
+			<footer>
+				<div class="container flexColumn">
+					<a href="">
+						<div class="footer_menu">
+							<div class="fm_1">
+								<div class="footer_box_text">Health Insurance</div>
+								<div class="footer_box_desc">
+									<div>Here in medicenter we have individual</div>
+								</div>
+							</div>
+							<div class="fm_2">
+								<div class="footer_box_text">Health Insurance</div>
+								<div class="footer_box_desc">
+									<div>Here in medicenter we have individual</div>
+								</div>
+							</div>
+							<div class="fm_3">
+								<div class="footer_box_text">Health Insurance</div>
+								<div class="footer_box_desc">
+									<div>Here in medicenter we have individual</div>
+								</div>
+							</div>
+						</div>
+					</a>
+					<div class="footer_area">
+						<div class="footer_area_item">
+							<!--copiado de widget pois a estrutura é a mesa - so dizer no css como ficar -->
+							<div class="widget">
+								<div class="widget_title">
+									<div class="widget_title_text">MediCenter Clinic</div>
+									<div class="widget_title_bar"></div>
+								</div>
+							</div>
+							<div class="widget_body">
+								<div class="medicenter_text">
+									Mauris adipiscing mauris fringilla turpis interdum sed pulvinar nisi malesuada individual.
+								</div>
+								<div class="medicenter_contact">
+									Medicenter Clinic
+								</div>
+								<div class="medicenter_contact_title">
+									<div class="medicenter_cols">
+										<div>
+											33 Farlane Street<br />
+                                			Keilor East<br />
+                                			VIC 3033, Australia
+                                		</div>
+                                		<div>
+                                			+123 655 655<br />
+                                			+123 755 755<br />
+                                			medicenter@mail.com
+                                		</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="footer_area_item">
+							<div class="widget">
+								<div class="widget_title">
+									<div class="widget_title_text">Latest Posts</div>
+									<div class="widget_title_bar"></div>
+								</div>
+							</div>
+							<div class="widget_body">
+								<div class="lastest_post">
+									<div class="lastest_post_title">
+										Mauris adipiscing mauris fringilla turpis interdum sed pulvinar nisi malesuada individual.
+									</div>
+									<div class="lastest_post_date">
+										6 years ago
+									</div>
+								</div>
+								<div class="lastest_post">
+									<div class="lastest_post_title">
+										Mauris adipiscing mauris fringilla turpis interdum sed pulvinar nisi malesuada individual.
+									</div>
+									<div class="lastest_post_date">
+										6 years ago
+									</div>
+								</div>
+								<div class="lastest_post">
+									<div class="lastest_post_title">
+										Mauris adipiscing mauris fringilla turpis interdum sed pulvinar nisi malesuada individual.
+									</div>
+									<div class="lastest_post_date">
+										6 years ago
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="footer_area_item">
+							<div class="widget">
+								<div class="widget_title">
+									<div class="widget_title_text">Latest Tweets</div>
+									<div class="widget_title_bar"></div>
+								</div>
+							</div>
+							<div class="widget_body">
+								<div class="lastest_tweets">
+									<div class="lastest_tweets_title">
+										Mauris adipiscing mauris fringilla turpis interdum sed pulvinar nisi malesuada individual.
+										Mauris adipiscing mauris fringilla turpis
+									</div>
+									<div class="lastest_tweets_date">
+										4 years ago
+									</div>
+								</div>
+								<div class="lastest_tweets">
+									<div class="lastest_tweets_title">
+										Mauris adipiscing mauris fringilla turpis interdum sed pulvinar nisi malesuada individual.
+										Mauris adipiscing mauris fringilla turpis
+									</div>
+									<div class="lastest_tweets_date">
+										4 years ago
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--inicio dos direitos reservados -->
+					<div class="footer_copy">
+						&copy Copyrigth - Todos os direitos reservados
+					</div>
+				</div>
+			</footer>
+		</body>
+	</html>
